@@ -35,7 +35,7 @@ const ShowDataID: React.FC = () => {
   const { id } = useParams<{ id: string }>();
 
   useEffect(() => {
-    Axios.get(`https://26852803-2b35-4314-b6c8-1fcb5bdf1406-00-1qkst20kyn8ol.sisko.replit.dev/courses/${id}`)
+    Axios.get(`https://f4c4351a-8914-43cf-aa7e-63f81b740b51-00-34me01lms6ol3.pike.replit.dev/courses/${id}`)
       .then(response => {
         setCourses(response.data);
       })
